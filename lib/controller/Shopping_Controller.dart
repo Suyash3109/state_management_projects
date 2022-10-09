@@ -57,6 +57,20 @@ class Shoppingcontroller extends GetxController {
         productImage: 'abd',
         productName: '6th Product',
       ),
+      Product(
+        id: 7,
+        price: 1530,
+        productDescription: "SOmething",
+        productImage: 'abd',
+        productName: '7th Product',
+      ),
+      Product(
+        id: 8,
+        price: 550,
+        productDescription: "SOmething",
+        productImage: 'abd',
+        productName: '8th Product',
+      ),
     ];
     products.value = productresult;
   }
